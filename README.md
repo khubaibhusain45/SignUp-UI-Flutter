@@ -20,16 +20,6 @@ A **sleek and modern SignUp UI** built with **Flutter**, featuring a background 
 
 ---
 
-## 🖼 Screenshots
-
-| SignUp Screen |
-|---------------|
-| ![SignUp UI](assets/images/m.jpg) |
-
-*Tip: Replace with a GIF to show typing, validation, and alerts for extra appeal.*
-
----
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -37,7 +27,7 @@ A **sleek and modern SignUp UI** built with **Flutter**, featuring a background 
 - Flutter SDK installed  
 - Android Studio / VS Code  
 - Basic Flutter knowledge  
-
+---
 ### Installation
 
 ```bash
@@ -64,6 +54,7 @@ flutter-signup-ui/
 │   └── main.dart
 ├── pubspec.yaml
 └── README.md
+---
 
 ### ✨ Why This Project is Useful
 
@@ -73,7 +64,7 @@ flutter-signup-ui/
 - Stack & Card layouts
 - Material 3 design principles
 - Can be used as a starter template for authentication screens.
-
+---
 ### 🤝 Contributing
 
 - Feel free to open issues or pull requests
