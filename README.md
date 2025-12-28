@@ -2,7 +2,6 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/) 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
-[![Stars](https://img.shields.io/github/stars/yourusername/flutter-signup-ui?style=social)](https://github.com/yourusername/flutter-signup-ui/stargazers)
 
 A **sleek and modern SignUp UI** built with **Flutter**, featuring a background image, smooth form validation, and a user-friendly interface. Perfect for beginners and developers looking to create stylish authentication screens.
 
