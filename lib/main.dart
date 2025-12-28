@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const Signup(),
     );
   }
 }
@@ -25,8 +27,8 @@ var emailId = TextEditingController();
 var password = TextEditingController();
 var cPassword = TextEditingController();
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class Signup extends StatelessWidget {
+  const Signup({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -205,6 +207,21 @@ class HomeScreen extends StatelessWidget {
                         child: const Text(
                           "SignUp",
                           style: TextStyle(color: Colors.purple, fontSize: 15),
+                        ),
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.only(top: 10),
+                      child: TextButton(
+                        onPressed: () {
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(builder: (context) => LoginScreen()),
+                          );
+                        },
+                        child: const Text(
+                          "Already have an account? Login here",
+                          style: TextStyle(color: Colors.white),
                         ),
                       ),
                     ),
