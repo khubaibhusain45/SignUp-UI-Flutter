@@ -170,7 +170,7 @@ class LoginScreen extends StatelessWidget {
                           );
                         },
                         child: const Text(
-                          "New on our Platform? Join us Here here",
+                          "New on our Platform? Join us Here",
                           style: TextStyle(color: Colors.white),
                         ),
                       ),
